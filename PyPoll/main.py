@@ -58,6 +58,8 @@ with open(outpath, 'w') as wfile:
     
     wfile.write('Election Results\n\n')
     wfile.write('-------------------------\n\n')
+    wfile.write('Total Votes : '+ str(n) + '\n\n')
+    wfile.write('-------------------------\n\n')
     wfile.write('Charles Casper Stockham:' + f'{pcan1:.3%}'+' ('+ str(can1)+')\n\n')
     wfile.write('Diana DeGette:' + f'{pcan2:.3%}'+' ('+ str(can2)+')\n\n')
     wfile.write('Raymon Anthony Doane:'+f'{pcan3:.3%}'+' ('+ str(can3)+')\n\n')
